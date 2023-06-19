@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* Означает всем элементам проставь данный стиль */
     font-family: "Nunito", sans-serif;
   }
   
   body {
     width: 100%;
     height: 100%;
-    /* минимальная вызсыта на весь екран */
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -42,7 +40,6 @@
   
   .modal_wrapper_input {
     width: 356px;
-    /* Убираем синий цвет который по дефлоту предлагал барузер */
     outline: none;
     height: 48px;
     background: #ffffff;
